@@ -15,10 +15,10 @@ C compiler (tested with clang)
 GNU Readline library (libreadline-dev)
 
 ## Installation
-Clone the repository: git clone https://github.com/yourusername/minishell.git
-Change directory: cd minishell
-Compile: make or make bonus
-Run the executable: ./minishell
+- Clone the repository: `git clone https://github.com/ccaljouw/codam_minishell.git <new folder>`
+- Change directory: `cd <new folder>`
+- Compile: `make` or `make bonus`
+- Run the executable: `./minishell`
 
 You can enter commands and use the built-in commands. To exit, type exit or press Ctrl+D.
 
@@ -27,4 +27,4 @@ Wildcards (*) are only supported in the bonus.
 Memory leaks caused by the readline() can occur.
 
 ## Credits
-This Minishell was created by Carien Caljouw and Carlo Wesseling as a project for CODAM programming school.
+This Minishell was created by Carlo Wesseling and Carien Caljouw as a project for CODAM programming school.
